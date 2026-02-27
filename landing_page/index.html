@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Brewed to Perfection - Premium Coffee Experience in a warm, cozy atmosphere. Enjoy our specialty drinks and delicious pastries.">
+    <title>Espresso & Co. | Brewed to Perfection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Espresso & Co.</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#story" class="nav-link">Our Story</a></li>
+                <li><a href="#specialty" class="nav-link">Specialty</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Brewed to Perfection</h1>
+            <p>Experience the finest artisanal coffee crafted with passion and precision. Your daily ritual, elevated.
+            </p>
+            <a href="#menu" class="btn btn-primary">Discover Our Menu</a>
+        </div>
+
+        <!-- Promotional Badge -->
+        <div class="promo-badge">
+            <p>Get 1 Free <br><strong>Croissant</strong><br> Today Only</p>
+        </div>
+    </section>
+
+    <!-- Featured Drinks Section -->
+    <section id="menu" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Featured Drinks</h2>
+                <p>Curated selections for the true coffee connoisseur</p>
+            </div>
+
+            <div class="drinks-grid">
+                <!-- Drink 1 -->
+                <div class="drink-card">
+                    <div class="drink-image-container">
+                        <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?q=80&w=1974&auto=format&fit=crop"
+                            alt="Classic Espresso">
+                    </div>
+                    <div class="drink-info">
+                        <h3>Classic Espresso</h3>
+                        <p>A double-shot of our house blend with a rich, mahogany crema and balanced acidity.</p>
+                        <button class="btn btn-outline">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Drink 2 -->
+                <div class="drink-card">
+                    <div class="drink-image-container">
+                        <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=1974&auto=format&fit=crop"
+                            alt="Nitro Cold Brew">
+                    </div>
+                    <div class="drink-info">
+                        <h3>Nitro Cold Brew</h3>
+                        <p>Steeped for 24 hours and infused with nitrogen for a smooth, velvety texture.</p>
+                        <button class="btn btn-outline">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Drink 3 -->
+                <div class="drink-card">
+                    <div class="drink-image-container">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=1870&auto=format&fit=crop"
+                            alt="Velvet Cappuccino">
+                    </div>
+                    <div class="drink-info">
+                        <h3>Velvet Cappuccino</h3>
+                        <p>Equal parts espresso, steamed milk, and airy foam, topped with delicate latte art.</p>
+                        <button class="btn btn-outline">Order Now</button>
+                    </div>
+                </div>
+
+                <!-- Drink 4 -->
+                <div class="drink-card">
+                    <div class="drink-image-container">
+                        <img src="https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?q=80&w=2110&auto=format&fit=crop"
+                            alt="Caramel Macchiato">
+                    </div>
+                    <div class="drink-info">
+                        <h3>Caramel Macchiato</h3>
+                        <p>Layers of vanilla, freshly steamed milk, and espresso, finished with buttery caramel.</p>
+                        <button class="btn btn-outline">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialty Section -->
+    <section id="specialty" class="section-padding" style="background-color: var(--warm-beige);">
+        <div class="container">
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem; align-items: center;">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=1974&auto=format&fit=crop"
+                        alt="Coffee beans" style="border-radius: 30px; box-shadow: var(--shadow-medium);">
+                </div>
+                <div>
+                    <h2 style="font-size: 2.5rem; color: var(--primary-dark); margin-bottom: 1.5rem;">From Farm to Your
+                        Cup</h2>
+                    <p style="margin-bottom: 2rem; color: var(--text-light);">We source our beans directly from
+                        sustainable farms in Ethiopia, Colombia, and Brazil. Each batch is roasted in-house to ensure
+                        the freshest flavor profile possible.</p>
+                    <ul style="margin-bottom: 2rem;">
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                            <span style="color: var(--gold); font-size: 1.5rem;">✔</span> 100% Organic Arabica Beans
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                            <span style="color: var(--gold); font-size: 1.5rem;">✔</span> Ethical Sourcing Practices
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                            <span style="color: var(--gold); font-size: 1.5rem;">✔</span> Small Batch Hand Roasting
+                        </li>
+                    </ul>
+                    <a href="#story" class="btn btn-primary">Learn Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Banner -->
+    <section class="promo-banner">
+        <div class="container">
+            <h2>Special Weekend Offer</h2>
+            <p>Join our rewards program and get 20% off your first 5 orders!</p>
+            <a href="#" class="btn btn-primary" style="background-color: var(--gold); color: var(--primary-dark);">Sign
+                Up Now</a>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real stories from our coffee lovers</p>
+            </div>
+
+            <div class="drinks-grid">
+                <div class="drink-card" style="text-align: left; padding: 2rem;">
+                    <div style="color: var(--gold); margin-bottom: 1rem;">★★★★★</div>
+                    <p style="font-style: italic; margin-bottom: 1.5rem;">"The atmosphere is so cozy, and the espresso
+                        is hands down the best in the city. Truly a gem."</p>
+                    <div style="font-weight: 600;">- Sarah Jenkins</div>
+                </div>
+                <div class="drink-card" style="text-align: left; padding: 2rem;">
+                    <div style="color: var(--gold); margin-bottom: 1rem;">★★★★★</div>
+                    <p style="font-style: italic; margin-bottom: 1.5rem;">"I come here every morning for the Cold Brew.
+                        The staff is friendly and the service is exceptionally fast."</p>
+                    <div style="font-weight: 600;">- Michael Ross</div>
+                </div>
+                <div class="drink-card" style="text-align: left; padding: 2rem;">
+                    <div style="color: var(--gold); margin-bottom: 1rem;">★★★★★</div>
+                    <p style="font-style: italic; margin-bottom: 1.5rem;">"A perfect place to work or catch up with
+                        friends. The Nitro Cold Brew is life-changing!"</p>
+                    <div style="font-weight: 600;">- Elena Rodriguez</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding" style="background-color: var(--warm-beige);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Us</h2>
+                <p>We'd love to see you around</p>
+            </div>
+            <div
+                style="max-width: 600px; margin: 0 auto; background: var(--white); padding: 3rem; border-radius: 20px; box-shadow: var(--shadow-soft);">
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="margin-bottom: 0.5rem;">Location</h4>
+                    <p>123 Coffee Lane, Brewville, CA 90210</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="margin-bottom: 0.5rem;">Hours</h4>
+                    <p>Mon - Fri: 7:00 AM - 8:00 PM</p>
+                    <p>Sat - Sun: 8:00 AM - 9:00 PM</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="margin-bottom: 0.5rem;">Contact</h4>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: hello@espressoandco.com</p>
+                </div>
+                <button class="btn btn-primary" style="width: 100%;">Get Directions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                <!-- Column 1: About -->
+                <div class="footer-col">
+                    <h4>About Espresso & Co.</h4>
+                    <p>Crafting exceptional coffee experiences since 2010. We believe in quality, sustainability, and
+                        community. Every cup tells a story of passion and craftsmanship.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="#story" class="btn btn-outline"
+                            style="border-color: var(--white); color: var(--white); padding: 0.5rem 1.2rem; font-size: 0.75rem;">Our
+                            Full Story</a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Customers -->
+                <div class="footer-col">
+                    <h4>Customers</h4>
+                    <ul class="footer-links">
+                        <li><a href="#menu">Menu Highlights</a></li>
+                        <li><a href="#">Loyalty Program</a></li>
+                        <li><a href="#contact">Store Locator</a></li>
+                        <li><a href="#">Order Online</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Testimonials & Subscribe -->
+                <div class="footer-col">
+                    <h4>Testimonials</h4>
+                    <p style="font-style: italic; font-size: 0.85rem; margin-bottom: 1.5rem;">"The warmest coffee house
+                        in the city. A daily necessity for me!"</p>
+
+                    <h4>Stay in the Loop</h4>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Email address" required>
+                        <button type="submit" class="btn btn-primary"
+                            style="background-color: var(--gold); border-radius: 5px;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Espresso & Co. Coffee Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

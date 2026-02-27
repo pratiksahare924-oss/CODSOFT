@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Detail | Futuristic Developer</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .blog-detail {
+            padding-top: 150px;
+        }
+
+        .blog-header {
+            margin-bottom: 3rem;
+            text-align: left;
+        }
+
+        .blog-content {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            max-width: 800px;
+            margin-bottom: 3rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent-purple);
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+
+<body class="dark-theme">
+    <div class="bg-gradient-circles"></div>
+
+    <header id="navbar" class="scrolled">
+        <nav class="container">
+            <div class="logo">PORT<span>FOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="blog-detail container">
+        <a href="../index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+        <article class="glass" style="padding: 3rem;">
+            <div class="blog-header">
+                <span class="blog-date">Feb 20, 2026</span>
+                <h1 class="main-heading" style="font-size: 3.5rem;">The Future of Glassmorphism</h1>
+            </div>
+
+            <div class="blog-image" style="margin-bottom: 2rem; border-radius: 20px; overflow: hidden; height: 400px;">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200" alt="Blog Image"
+                    style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+
+            <div class="blog-content">
+                <p>Glassmorphism has taken the design world by storm in recent years. Its characteristic backdrop blur,
+                    subtle borders, and layered translucency create a sense of depth and hierarchy that feels both
+                    modern and premium.</p>
+                <br>
+                <p>As we move into 2026, the trend is becoming even more refined. Designers are pairing glass effects
+                    with vibrant neon accents and deep gradients to create truly futuristic interfaces. The key lies in
+                    the balance: enough translucency to provide context, but enough contrast to maintain legibility and
+                    accessibility.</p>
+                <br>
+                <p>In this article, we'll explore how to implement these effects efficiently using modern CSS properties
+                    like <code>backdrop-filter</code> and how to ensure your designs remain performant across all
+                    devices.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
